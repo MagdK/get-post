@@ -1,57 +1,105 @@
 {
-    "id": "beers",
-    "logo": "Best Beers",
+    "id": "activities",
+    "logo": "Bucket List",
     "button": "details",
     "cards": [
         {
-            "title": "Mango Bay",
-            "sub": "Mad Scientist Beer",
-            "text": "Pale Ale - American"
+            "activity": "Learn a new programming language",
+            "accessibility": 0.25,
+            "type": "education",
+            "participants": 1,
+            "price": 0.1,
+            "key": "5881028"
         },
         {
-            "title": "Távoli Galaxis",
-            "sub": "Rothbeer Brewery",
-            "text": "IPA - American"
+            "activity": "Create a compost pile",
+            "type": "diy",
+            "participants": 1,
+            "price": 0,
+            "link": "",
+            "key": "8631548",
+            "accessibility": 0.15
         },
         {
-            "title": "Flying Rabbit AIPA",
-            "sub": "MONYO Brewing Co.",
-            "text": "IPA - American"
+            "activity": "Take a nap",
+            "type": "relaxation",
+            "participants": 1,
+            "price": 0,
+            "link": "",
+            "key": "6184514",
+            "accessibility": 0
         },
         {
-            "title": "Liquid Cocaine",
-            "sub": "Mad Scientist Beer",
-            "text": "IPA - Imperial"
+            "activity": "Improve your touch typing",
+            "type": "busywork",
+            "participants": 1,
+            "price": 0,
+            "link": "https://en.wikipedia.org/wiki/Touch_typing",
+            "key": "2526437",
+            "accessibility": 0.8
         },
         {
-            "title": "Organic Chocolate Stout",
-            "sub": "Samuel Smith Old Brewery",
-            "text": "Stout - English"
+            "activity": "Pick up litter around your favorite park",
+            "type": "charity",
+            "participants": 1,
+            "price": 0,
+            "link": "",
+            "key": "4894697",
+            "accessibility": 0.05
         },
         {
-            "title": "Bracia",
-            "sub": "Thornbridge Brewery",
-            "text": "Strong Ale - English"
+            "activity": "Listen to a new podcast",
+            "type": "relaxation",
+            "participants": 1,
+            "price": 0.05,
+            "link": "",
+            "key": "4124860",
+            "accessibility": 0.12
         },
         {
-            "title": "Oatmeal Stout",
-            "sub": "Samuel Smith Old Brewery",
-            "text": "Stout - Oatmeal"
+            "activity": "Do a jigsaw puzzle",
+            "type": "recreational",
+            "participants": 1,
+            "price": 0.1,
+            "link": "https://en.wikipedia.org/wiki/Jigsaw_puzzle",
+            "key": "8550768",
+            "accessibility": 1
         },
         {
-            "title": "Black Tokyo Horizon",
-            "sub": "BrewDog",
-            "text": "Stout - American Imperial"
+            "activity": "Cook something together with someone",
+            "type": "cooking",
+            "participants": 2,
+            "price": 0.3,
+            "link": "",
+            "key": "1799120",
+            "accessibility": 0.8
         },
         {
-            "title": "Vintage Ale",
-            "sub": "Fuller's",
-            "text": "Old Ale"
+            "activity": "Go stargazing",
+            "type": "relaxation",
+            "participants": 1,
+            "price": 0,
+            "link": "",
+            "key": "8832605",
+            "accessibility": 0.1
         },
         {
-            "title": "All the Leaves are Brown",
-            "sub": "Tempest Brewing Company",
-            "text": "Brown Ale - American"
+            "activity": "Conquer one of your fears",
+            "type": "recreational",
+            "participants": 1,
+            "price": 0.1,
+            "link": "",
+            "key": "8344539",
+            "accessibility": 0.1
+        },
+        {
+            "activity": "Learn to sew on a button",
+            "type": "education",
+            "participants": 1,
+            "price": 0.05,
+            "link": "",
+            "key": "8731971",
+            "accessibility": 0.1
         }
     ]
 }
