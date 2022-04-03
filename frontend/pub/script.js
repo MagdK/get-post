@@ -10,32 +10,34 @@
     return cardsHTML.join("")
 }; */
 
-function pageContent(beers) {
+function pageContent(tasks) {
     let myStr = ""
 
-    for(let beer of beers) {
+    for(let task of tasks) {
         myStr = myStr.concat(
             `
-        <h1>${beer.title}</h1>
-        <p>${beer.sub}</p>
-        <p>${beer.text}</p>
+            <div>
+                <h1>${task.activity}</h1>
+                <p>${task.type}</p>
+                <p>accessibility – ${task.accessibility}</p>
+            </div>
     `
         )
     }
     return myStr
 }
 
-async function fetchBeer() {
-    const beerData = await fetch(`http://127.0.0.1:9000/pub/data.json`);
+async function fetchTask() {
+    const taskData = await fetch(`http://127.0.0.1:9000/pub/data.json`);
 
-    return beerData.json();
+    return taskData.json();
 }
 
 async function loadEvent() {
-    const beers = await fetchBeer();
+    const tasks = await fetchTask();
 
     const rootElement = document.getElementById("root")
-    rootElement.innerHTML = pageContent(beers.cards);
+    rootElement.innerHTML = pageContent(tasks.cards);
 }
 
 window.addEventListener("load", loadEvent)

@@ -1,15 +1,16 @@
 {
     "id": "activities",
-    "logo": "Bucket List",
+    "logo": "Tasks",
     "button": "details",
     "cards": [
         {
-            "activity": "Learn a new programming language",
-            "accessibility": 0.25,
-            "type": "education",
+            "activity": "Do yoga",
+            "type": "recreational",
             "participants": 1,
-            "price": 0.1,
-            "key": "5881028"
+            "price": 0,
+            "link": "",
+            "key": "4688012",
+            "accessibility": 0.9
         },
         {
             "activity": "Create a compost pile",
