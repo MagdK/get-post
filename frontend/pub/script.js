@@ -10,34 +10,39 @@
     return cardsHTML.join("")
 }; */
 
-function pageContent(tasks) {
+function pageContent(activities) {
     let myStr = ""
 
-    for(let task of tasks) {
-        myStr = myStr.concat(
-            `
-            <div>
-                <h1>${task.activity}</h1>
-                <p>${task.type}</p>
-                <p>accessibility – ${task.accessibility}</p>
-            </div>
-    `
-        )
+    for(let activity of activities) {
+        if (activity.participants > 1) {
+            
+            myStr = myStr.concat(
+                `
+                <div>
+                    <h2>${activity.activity}</h2>
+                    <p>${activity.participants}</p>
+                </div>
+        `
+            )
+        }
+        
     }
     return myStr
 }
 
-async function fetchTask() {
-    const taskData = await fetch(`http://127.0.0.1:9000/pub/data.json`);
+// fetch data from json file
+async function fetchActivity() {
+    const activityData = await fetch(`http://127.0.0.1:9000/pub/data.json`);
 
-    return taskData.json();
+    return activityData.json();
 }
 
+//load event function
 async function loadEvent() {
-    const tasks = await fetchTask();
+    const activities = await fetchActivity();
 
     const rootElement = document.getElementById("root")
-    rootElement.innerHTML = pageContent(tasks.cards);
+    rootElement.innerHTML = pageContent(activities.cards);
 }
 
 window.addEventListener("load", loadEvent)

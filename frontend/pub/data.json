@@ -4,64 +4,64 @@
     "button": "details",
     "cards": [
         {
-            "activity": "Do yoga",
+            "activity": "Make a couch fort",
             "type": "recreational",
-            "participants": 1,
-            "price": 0,
+            "participants": 2,
+            "price": 30,
             "link": "",
-            "key": "4688012",
-            "accessibility": 0.9
-        },
-        {
-            "activity": "Create a compost pile",
-            "type": "diy",
-            "participants": 1,
-            "price": 0,
+            "key": "2352669",
+            "accessibility": 0.08
+          },
+          {
+            "activity": "Rearrange and organize your room",
+            "type": "busywork",
+            "participants": 4,
+            "price": 10,
             "link": "",
-            "key": "8631548",
+            "key": "6197243",
             "accessibility": 0.15
         },
         {
-            "activity": "Take a nap",
-            "type": "relaxation",
-            "participants": 1,
-            "price": 0,
+            "activity": "Clean out your garage",
+            "type": "busywork",
+            "participants": 2,
+            "price": 50,
             "link": "",
-            "key": "6184514",
+            "key": "7023703",
+            "accessibility": 0.1
+        },
+        {
+            "activity": "Learn how to beatbox",
+            "type": "recreational",
+            "participants": 3,
+            "price": 150,
+            "link": "https://en.wikipedia.org/wiki/Beatboxing",
+            "key": "8731710",
+            "accessibility": 1
+        },
+        {
+            "activity": "Resolve a problem you've been putting off",
+            "type": "busywork",
+            "participants": 1,
+            "price": 290,
+            "link": "",
+            "key": "9999999",
             "accessibility": 0
         },
         {
-            "activity": "Improve your touch typing",
-            "type": "busywork",
-            "participants": 1,
-            "price": 0,
-            "link": "https://en.wikipedia.org/wiki/Touch_typing",
-            "key": "2526437",
-            "accessibility": 0.8
-        },
-        {
-            "activity": "Pick up litter around your favorite park",
+            "activity": "Donate blood at a local blood center",
             "type": "charity",
             "participants": 1,
-            "price": 0,
-            "link": "",
-            "key": "4894697",
-            "accessibility": 0.05
-        },
-        {
-            "activity": "Listen to a new podcast",
-            "type": "relaxation",
-            "participants": 1,
-            "price": 0.05,
-            "link": "",
-            "key": "4124860",
-            "accessibility": 0.12
+            "price": 20,
+            "link": "https://www.redcross.org/give-blood",
+            "key": "6509779",
+            "accessibility": 0.35
         },
         {
             "activity": "Do a jigsaw puzzle",
             "type": "recreational",
-            "participants": 1,
-            "price": 0.1,
+            "participants": 2,
+            "price": 40,
             "link": "https://en.wikipedia.org/wiki/Jigsaw_puzzle",
             "key": "8550768",
             "accessibility": 1
@@ -70,7 +70,7 @@
             "activity": "Cook something together with someone",
             "type": "cooking",
             "participants": 2,
-            "price": 0.3,
+            "price": 60,
             "link": "",
             "key": "1799120",
             "accessibility": 0.8
@@ -88,7 +88,7 @@
             "activity": "Conquer one of your fears",
             "type": "recreational",
             "participants": 1,
-            "price": 0.1,
+            "price": 120,
             "link": "",
             "key": "8344539",
             "accessibility": 0.1
@@ -96,8 +96,8 @@
         {
             "activity": "Learn to sew on a button",
             "type": "education",
-            "participants": 1,
-            "price": 0.05,
+            "participants": 2,
+            "price": 15,
             "link": "",
             "key": "8731971",
             "accessibility": 0.1
